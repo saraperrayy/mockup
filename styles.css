@@ -1,16 +1,41 @@
 body {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: rgb(247,217,223);
+    margin: auto;
+    justify-content: center;
+
 }
-ul li{
+ul li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #C27082;
     display: inline;
     padding: 10px;
     margin: 75px;
     border-style: solid;
     border-width: 4px;
-    border-color: #75676A;
+    border-color: #75444F;
+}
+h1 {
+    color: hex#75444F;
+    text-align: center;
+    justify-content: center;
+
+}
+img {
+    display: inline-block;
+    justify-content: center;
+    border: 5px solid #75444F;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%
+}
+p { 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    margin: 75px;
 }
 
-h1 {
-    color: hex#75444F;}
-    
+h2 {
+    justify-content: center;
+    text-align: center;
+    color: #C27082
+}
