@@ -22,7 +22,47 @@
     <p>Evie's Event Planning is Middle Tennessee's premier full-service event management company. Whether an intimate outdoor wedding or a large corporate event, our skilled team is here to execute and create an experience our clients and their guests will always remember.</p>
     <h2>About Evie</h2>
     <p>No this isn’t a dream; this is my reality. My fascination with event planning stems from my childhood. I planned my own wedding by the age of six. What started as just a little girl clipping pages from Martha Stewart Weddings evolved into a business awarded Top Wedding Planner by Martha Stewart Weddings. I built my business with a passion for connecting lasting memories to life’s most celebrated events. Now, as the south’s go-to for unique events, I’ll make your dreams a reality, too.</p>
+    
+    <p>Sign up for my newsletter and receive 10% off</p>
+
+    <button onclick="myFunction ()">Newsletter</button>
+
+    <p id="demo".></p>
+    <script>
+    function myFunction() {
+        var message = 'Sign up for my newsletter and receive 10% off!';
+    
+    var el = document.getElementById('message');
+    el.textContent = msg;
+    }    
+    </script>
+    
     <script src="basic-function.js"></script>
+    <p>Click the button to display a confirm box</p>
+
+    <button onclick="myFunction()">Try it</button>
+
+    <script>
+    function myFunction() {
+        confirm("Press a button!");
+    }   
+    
+    <p>Click the button to demonstrate the prompt box.</p>
+
+    <button onclick="myFunction()">Try it</button>
+
+    <p id="demo"></p>
+
+    <script>
+    function myFunction() {
+        var person = prompt("Please enter your name", "Sara Perry")
+        if (person != null) {
+            document.getElementById("demo").innerHTML =
+            "Hello " + person + "! How are you today?";
+        }
+    }    
+    </script>
+
 </body>   
 <footer>© 2021 Evie's Event Planning | phone: 123-456-0789</footer>
 </html>
